@@ -1,0 +1,37 @@
+{
+  "name": "CRM4R",
+  "version": "1.0.0",
+  "description": "Una aplicación para el manejo de clientes y préstamos por medio de tickets",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:CarlosTolenk/CRM4R_.git"
+  },
+  "keywords": [
+    "task",
+    "webapp",
+    "resources"
+  ],
+  "author": "CTolenk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarlosTolenk/CRM4R_/issues"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "connect-multiparty": "^2.1.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "jwt-simple": "^0.5.1",
+    "lodash": "^4.17.5",
+    "moment": "^2.20.1",
+    "mongoose": "^5.0.7",
+    "mongoose-pagination": "^1.0.0",
+    "morgan": "^1.9.0"
+  }
+}
