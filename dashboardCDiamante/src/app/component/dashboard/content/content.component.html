@@ -1,0 +1,557 @@
+    
+    <!-- Page wrapper  -->
+    <!-- ============================================================== -->
+    <div class="page-wrapper">
+        
+      <!-- ============================================================== -->
+      <!-- Container fluid  -->
+      <!-- ============================================================== -->
+      <div class="container-fluid">
+      <!-- ============================================================== -->
+      <!-- Bread crumb and right sidebar toggle -->
+      <!-- ============================================================== -->
+      <div class="row page-titles">
+          <div class="col-md-5 align-self-center">
+              <h3 class="text-themecolor">Sistema CDiamante</h3>
+          </div>
+          <!-- <div class="col-md-7 align-self-center">
+              <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
+                  <li class="breadcrumb-item">Apps</li>
+                  <li class="breadcrumb-item active">Dashboard 3</li>
+              </ol>
+          </div> -->
+          <div class="">
+              <button class="right-side-toggle waves-effect waves-light btn-inverse btn btn-circle btn-sm pull-right m-l-10"><i class="ti-settings text-white"></i></button>
+          </div>
+      </div>
+      <!-- ============================================================== -->
+      <!-- End Bread crumb and right sidebar toggle -->
+      <!-- ============================================================== -->
+      
+          <!-- ============================================================== -->
+          <!-- Stats box -->
+          <!-- ============================================================== -->
+          <div class="row">
+              <div class="col-lg-3">
+                  <div class="card bg-info">
+                      <div class="card-body">
+                          <div class="d-flex no-block">
+                              <div class="m-r-20 align-self-center"><img src="../assets/images/icon/income-w.png" alt="Income" /></div>
+                              <div class="align-self-center">
+                                  <h6 class="text-white m-t-10 m-b-0">Total de Ingresos</h6>
+                                  <h2 class="m-t-0 text-white">RD$953,000</h2></div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-3">
+                  <div class="card bg-success">
+                      <div class="card-body">
+                          <div class="d-flex no-block">
+                              <div class="m-r-20 align-self-center"><img src="../assets/images/icon/expense-w.png" alt="Income" /></div>
+                              <div class="align-self-center">
+                                  <h6 class="text-white m-t-10 m-b-0">Total de Gastos</h6>
+                                  <h2 class="m-t-0 text-white">RD$87,563</h2></div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-3">
+                  <div class="card bg-primary">
+                      <div class="card-body">
+                          <div class="d-flex no-block">
+                              <div class="m-r-20 align-self-center"><img src="../assets/images/icon/assets-w.png" alt="Income" /></div>
+                              <div class="align-self-center">
+                                  <h6 class="text-white m-t-10 m-b-0">Total de Ingreso Bruto</h6>
+                                  <h2 class="m-t-0 text-white">RD$987,563</h2></div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-3">
+                  <div class="card bg-danger">
+                      <div class="card-body">
+                          <div class="d-flex no-block">
+                              <div class="m-r-20 align-self-center"><img src="../assets/images/icon/staff-w.png" alt="Income" /></div>
+                              <div class="align-self-center">
+                                  <h6 class="text-white m-t-10 m-b-0">Total Planes Vendidos</h6>
+                                  <h2 class="m-t-0 text-white">1563</h2></div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- ============================================================== -->
+          <!-- Sales overview chart -->
+          <!-- ============================================================== -->
+          <div class="row">
+              <div class="col-lg-6 col-md-12">
+                  <div class="card">
+                      <div class="card-body">
+                          <div class="d-flex">
+                              <div>
+                                  <h3 class="card-title m-b-5"><span class="lstick"></span>Resumen de Ventas </h3>
+                              </div>
+                              <div class="ml-auto">
+                                  <select class="custom-select b-0">
+                                      <option selected="">Enero 2018</option>
+                                      <option value="1">Febrero 2018</option>
+                                      <option value="2">Marzo 2018</option>
+                                      <option value="3">Abril 2018</option>
+                                  </select>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="bg-theme stats-bar">
+                          <div class="row">
+                              <div class="col-lg-4 col-md-4">
+                                  <div class="p-20 active">
+                                      <h6 class="text-white">Total Ventas</h6>
+                                      <h3 class="text-white m-b-0">RD$987,563</h3>
+                                  </div>
+                              </div>
+                              <div class="col-lg-4 col-md-4">
+                                  <div class="p-20">
+                                      <h6 class="text-white">Este Mes</h6>
+                                      <h3 class="text-white m-b-0">RD$187,563</h3>
+                                  </div>
+                              </div>
+                              <div class="col-lg-4 col-md-4">
+                                  <div class="p-20">
+                                      <h6 class="text-white">Esta Semana</h6>
+                                      <h3 class="text-white m-b-0">RD$67,563</h3>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="card-body">
+                          <div id="sales-overview2" class="p-relative" style="height:330px;"></div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                  <div class="card">
+                      <div class="card-body">
+                          <div class="d-flex">
+                              <div>
+                                  <h3 class="card-title m-b-5"><span class="lstick"></span>Planes Vendidos </h3>
+                              </div>
+                              <div class="ml-auto">
+                                  <select class="custom-select b-0">
+                                      <option selected="">Enero 2018</option>
+                                      <option value="1">Febrero 2018</option>
+                                      <option value="2">Marzo 2018</option>
+                                      <option value="3">Abril 2018</option>
+                                  </select>
+                              </div>
+                          </div>
+                          <div id="ct-sales3-chart" class="p-relative" style="height:360px;"></div>
+                          <div class="stats-bar">
+                              <div class="row text-center">
+                                  <div class="col-lg-4 col-md-4">
+                                      <div class="p-20">
+                                          <h6 class="m-b-0">Total Planes</h6>
+                                          <h3 class="m-b-0">1563</h3>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-4 col-md-4">
+                                      <div class="p-20">
+                                          <h6 class="m-b-0">Este Mes</h6>
+                                          <h3 class="m-b-0">456</h3>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-4 col-md-4">
+                                      <div class="p-20">
+                                          <h6 class="m-b-0">Esta Semana</h6>
+                                          <h3 class="m-b-0">124</h3>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              
+             
+             
+          </div>
+          <!-- ============================================================== -->
+          <!-- Subscribe -->
+          <!-- ============================================================== -->
+          <div class="row">
+              <div class="col-lg-4">
+                  <div class="row">
+                      <div class="col-lg-12">
+                          <div class="card bg-success text-white">
+                              <div class="card-body">
+                                  <div class="d-flex">
+                                      <div class="stats">
+                                          <h1 class="text-white">9062+</h1>
+                                          <h6 class="text-white">Mensajes Enviados</h6>
+                                          <button class="btn btn-rounded btn-outline btn-light m-t-10 font-14">Ver Lista</button>
+                                      </div>
+                                      <div class="stats-icon text-right ml-auto"><i class="fa fa-envelope display-5 op-3 text-dark"></i></div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-12">
+                          <div class="card bg-primary text-white">
+                              <div class="card-body">
+                                  <div class="d-flex">
+                                      <div class="stats">
+                                          <h1 class="text-white">509+</h1>
+                                          <h6 class="text-white">Clientes Subscritos</h6>
+                                          <button class="btn btn-rounded btn-outline btn-light m-t-10 font-14">Ver Lista</button>
+                                      </div>
+                                      <div class="stats-icon text-right ml-auto"><i class="fa fa-user display-5 op-3 text-dark"></i></div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-12">
+                          <div class="card bg-danger text-white">
+                              <div class="card-body">
+                                  <div class="d-flex">
+                                      <div class="stats">
+                                          <h1 class="text-white">53257+</h1>
+                                          <h6 class="text-white">Suscriptos YouTube</h6>
+                                          <button class="btn btn-rounded btn-outline btn-light m-t-10 font-14">Ir YouTube</button>
+                                      </div>
+                                      <div class="stats-icon text-right ml-auto"><i class="fa fa-youtube display-5 op-3 text-dark"></i></div>
+                                  </div>
+                              </div>
+                          </div>
+                          
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-8">
+                  <div class="card">
+                      <div class="card-body">
+                          <div class="d-flex">
+                              <h4 class="card-title"><span class="lstick"></span>Subcripciones de Clientes</h4>
+                              <!-- <ul class="list-inline m-b-0 ml-auto">
+                                  <li>
+                                      <h6 class="text-muted text-success"><i class="fa fa-circle font-10 m-r-10 "></i>Site A view</h6> </li>
+                                  <li>
+                                      <h6 class="text-muted text-info"><i class="fa fa-circle font-10 m-r-10"></i>Site B view</h6> </li>
+                              </ul> -->
+                          </div>
+                          <div class="text-center m-t-30">
+                              <div class="btn-group " role="group" aria-label="Basic example">
+                                  <button type="button" class="btn btn-sm btn-secondary">PAGEVIEWS</button>
+                                  <button type="button" class="btn btn-sm btn-secondary">REFERRALS</button>
+                              </div>
+                          </div>
+                          <div class="website-visitor p-relative m-t-30" style="height:355px; width:100%;"></div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- ============================================================== -->
+          <!-- Projects of the month -->
+          <!-- ============================================================== -->
+          <div class="row">
+              <div class="col-lg-6 col-md-12">
+                  <div class="card">
+                      <div class="card-body">
+                          <div class="d-flex">
+                              <div>
+                                  <h4 class="card-title"><span class="lstick"></span>Planes del Mes</h4></div>
+                              <div class="ml-auto">
+                                  <select class="custom-select b-0">
+                                      <option selected="">Enero 2018</option>
+                                      <option value="1">Febrero 2018</option>
+                                      <option value="2">Marzo 2018</option>
+                                      <option value="3">Abril 2018</option>
+                                  </select>
+                              </div>
+                          </div>
+                          <div class="table-responsive m-t-20">
+                              <table class="table vm no-th-brd pro-of-month">
+                                  <thead>
+                                      <tr>
+                                          <th colspan="2">Nombre</th>
+                                          <th>Precio</th>
+                                          <th>Cantidad</th>
+                                      </tr>
+                                  </thead>
+                                  <tbody>
+                                      <tr>
+                                          <td style="width:50px;"><span class="round"><img src="../assets/images/users/1.jpg" alt="user" width="50"></span></td>
+                                          <td>
+                                              <h6>Supremo Especial</h6></td>
+                                          <td>RD$2,500</td>
+                                          <td><span class="label label-success label-rounded">500</span></td>
+                                      </tr>
+                                      <tr>
+                                          <td style="width:50px;"><span class="round"><img src="../assets/images/users/1.jpg" alt="user" width="50"></span></td>
+                                          <td>
+                                              <h6>Supremo Especial</h6></td>
+                                          <td>RD$2,500</td>
+                                          <td><span class="label label-danger label-rounded">25</span></td>
+                                      </tr>
+                                      <tr>
+                                          <td style="width:50px;"><span class="round"><img src="../assets/images/users/1.jpg" alt="user" width="50"></span></td>
+                                          <td>
+                                              <h6>Supremo Especial</h6></td>
+                                          <td>RD$1,500</td>
+                                          <td><span class="label label-warning label-rounded">150</span></td>
+                                      </tr>
+                                      <tr>
+                                          <td style="width:50px;"><span class="round"><img src="../assets/images/users/1.jpg" alt="user" width="50"></span></td>
+                                          <td>
+                                              <h6>Supremo Especial</h6></td>
+                                          <td>RD$5,500</td>
+                                          <td><span class="label label-info label-rounded">300</span></td>
+                                      </tr>
+                                      <tr>
+                                          <td style="width:50px;"><span class="round"><img src="../assets/images/users/1.jpg" alt="user" width="50"></span></td>
+                                          <td>
+                                              <h6>Supremo Especial</h6></td>
+                                          <td>RD$1,500</td>
+                                          <td><span class="label label-success label-rounded">700</span></td>
+                                      </tr>
+                                      
+                                      
+                                      
+                                      
+                                      
+                                      
+                                  </tbody>
+                              </table>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- ============================================================== -->
+              <!-- Activity widget find scss into widget folder-->
+              <!-- ============================================================== -->
+                  <div class="col-lg-6">
+                      <div class="card">
+                      <div class="card-body">
+                          <h4 class="card-title"><span class="lstick"></span>Movimientos Recientes</h4>
+                          <ul class="feeds">
+                              <li>
+                                  <div class="bg-light-info"><i class="fa fa-bell-o"></i></div> Tienes 4 tareas pendientes <span class="text-muted">Just Now</span></li>
+                              <li>
+                                  <div class="bg-light-success"><i class="ti-server"></i></div> Modificar el sistema para agregar el sistema de tickets.<span class="text-muted">2 Hours ago</span></li>
+                              <li>
+                                  <div class="bg-light-warning"><i class="ti-shopping-cart"></i></div> Nuevo Orden de Plan.<span class="text-muted">31 May</span></li>
+                              <li>
+                                  <div class="bg-light-danger"><i class="ti-user"></i></div> Nuevo Cliente Registrado.<span class="text-muted">30 May</span></li>
+                              <li>
+                                  <div class="bg-light-inverse"><i class="fa fa-bell-o"></i></div> Nuevo Plan Agregado. <span class="text-muted">27 May</span></li>
+                              <li>
+                                  <div class="bg-light-danger"><i class="ti-user"></i></div> Nuevo Cliente Registrado.<span class="text-muted">30 May</span></li>
+                              <li>
+                                  <div class="bg-light-inverse"><i class="fa fa-bell-o"></i></div> Nuevo Plan Agregado. <span class="text-muted">27 May</span></li>
+                              <li>
+                                  <div class="bg-light-primary"><i class="ti-settings"></i></div> Tienes 4 tareas pendientes. <span class="text-muted">27 May</span></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- ============================================================== -->
+          <!-- Comment and chat -->
+          <!-- ============================================================== -->
+          <div class="row">
+              <div class="col-lg-6">
+                  <div class="card">
+                      <div class="card-body">
+                          <h4 class="card-title"><span class="lstick"></span>Últimos Mensajes</h4>
+                      </div>
+                      <!-- ============================================================== -->
+                      <!-- Comment widgets -->
+                      <!-- ============================================================== -->
+                      <div class="comment-widgets">
+                          <!-- Comment Row -->
+                          <div class="d-flex flex-row comment-row">
+                              <div class="p-2"><span class="round"><img src="../assets/images/users/1.jpg" alt="user" width="50"></span></div>
+                              <div class="comment-text w-100">
+                                  <h5>María Gonzales</h5>
+                                  <p class="m-b-5">Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has beenorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+                                  <div class="comment-footer"> <span class="text-muted pull-right">April 14, 2016</span> <span class="label label-rounded label-info">Pending</span> <span class="action-icons">
+                                              <a href="javascript:void(0)"><i class="ti-pencil-alt"></i></a>
+                                              <a href="javascript:void(0)"><i class="ti-check"></i></a>
+                                              
+                                          </span> </div>
+                              </div>
+                          </div>
+                          <!-- Comment Row -->
+                          <div class="d-flex flex-row comment-row active">
+                              <div class="p-2"><span class="round"><img src="../assets/images/users/2.jpg" alt="user" width="50"></span></div>
+                              <div class="comment-text active w-100">
+                                  <h5>Raul Mondesi</h5>
+                                  <p class="m-b-5">Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has beenorem Ipsum is simply dummy text of the printing and type setting industry..</p>
+                                  <div class="comment-footer "> <span class="text-muted pull-right">April 14, 2016</span> <span class="label label-success label-rounded">Approved</span> <span class="action-icons active">
+                                              <a href="javascript:void(0)"><i class="ti-pencil-alt"></i></a>
+                                              <a href="javascript:void(0)"><i class="icon-close"></i></a>
+                                                
+                                          </span> </div>
+                              </div>
+                          </div>
+                          <!-- Comment Row -->
+                          <div class="d-flex flex-row comment-row">
+                              <div class="p-2"><span class="round"><img src="../assets/images/users/3.jpg" alt="user" width="50"></span></div>
+                              <div class="comment-text w-100">
+                                  <h5>José Rodriguez</h5>
+                                  <p class="m-b-5">Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has beenorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+                                  <div class="comment-footer"> <span class="text-muted pull-right">April 14, 2016</span> <span class="label label-rounded label-danger">Rejected</span> <span class="action-icons">
+                                              <a href="javascript:void(0)"><i class="ti-pencil-alt"></i></a>
+                                              <a href="javascript:void(0)"><i class="ti-check"></i></a>
+                                                 
+                                          </span> </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-6">
+                  <div class="card">
+                      <div class="card-body">
+                          <h4 class="card-title"><span class="lstick"></span>Recent Chats</h4>
+                          <div class="chat-box">
+                              <!--chat Row -->
+                              <ul class="chat-list">
+                                  <!--chat Row -->
+                                  <li>
+                                      <div class="chat-img"><img src="../assets/images/users/1.jpg" alt="user" /></div>
+                                      <div class="chat-content">
+                                          <h5>James Anderson</h5>
+                                          <div class="box bg-light-info">Lorem Ipsum is simply dummy text of the printing & type setting industry.</div>
+                                      </div>
+                                      <div class="chat-time">10:56 am</div>
+                                  </li>
+                                  <!--chat Row -->
+                                  <li>
+                                      <div class="chat-img"><img src="../assets/images/users/2.jpg" alt="user" /></div>
+                                      <div class="chat-content">
+                                          <h5>Bianca Doe</h5>
+                                          <div class="box bg-light-info">It’s Great opportunity to work.</div>
+                                      </div>
+                                      <div class="chat-time">10:57 am</div>
+                                  </li>
+                                  <!--chat Row -->
+                                  <li class="odd">
+                                      <div class="chat-content">
+                                          <div class="box bg-light-inverse">I would love to join the team.</div>
+                                          <br/>
+                                      </div>
+                                      <div class="chat-time">10:58 am</div>
+                                  </li>
+                                  <!--chat Row -->
+                                  <li class="odd">
+                                      <div class="chat-content">
+                                          <div class="box bg-light-inverse">Whats budget of the new project.</div>
+                                          <br/>
+                                      </div>
+                                      <div class="chat-time">10:59 am</div>
+                                  </li>
+                                  <!--chat Row -->
+                                  <li>
+                                      <div class="chat-img"><img src="../assets/images/users/3.jpg" alt="user" /></div>
+                                      <div class="chat-content">
+                                          <h5>Angelina Rhodes</h5>
+                                          <div class="box bg-light-info">Well we have good budget for the project</div>
+                                      </div>
+                                      <div class="chat-time">11:00 am</div>
+                                  </li>
+                                  <!--chat Row -->
+                              </ul>
+                          </div>
+                      </div>
+                      <div class="card-body b-t">
+                          <div class="row">
+                              <div class="col-8">
+                                  <textarea placeholder="Type your message here" class="form-control b-0"></textarea>
+                              </div>
+                              <div class="col-4 text-right">
+                                  <button type="button" class="btn btn-info btn-circle btn-lg"><i class="fa fa-paper-plane-o"></i> </button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- ============================================================== -->
+          <!-- End Right panel -->
+          <!-- ============================================================== -->
+          <!-- ============================================================== -->
+          <!-- End Page Content -->
+          <!-- ============================================================== -->
+          <!-- ============================================================== -->
+          <!-- Right sidebar -->
+          <!-- ============================================================== -->
+          <!-- .right-sidebar -->
+          <div class="right-sidebar">
+              <div class="slimscrollright">
+                  <div class="rpanel-title"> Service Panel <span><i class="ti-close right-side-toggle"></i></span> </div>
+                  <div class="r-panel-body">
+                      <ul id="themecolors" class="m-t-20">
+                          <li><b>With Light sidebar</b></li>
+                          <li><a href="javascript:void(0)" data-theme="default" class="default-theme">1</a></li>
+                          <li><a href="javascript:void(0)" data-theme="green" class="green-theme">2</a></li>
+                          <li><a href="javascript:void(0)" data-theme="red" class="red-theme">3</a></li>
+                          <li><a href="javascript:void(0)" data-theme="blue" class="blue-theme">4</a></li>
+                          <li><a href="javascript:void(0)" data-theme="purple" class="purple-theme">5</a></li>
+                          <li><a href="javascript:void(0)" data-theme="megna" class="megna-theme">6</a></li>
+                          <li class="d-block m-t-30"><b>With Dark sidebar</b></li>
+                          <li><a href="javascript:void(0)" data-theme="default-dark" class="default-dark-theme working">7</a></li>
+                          <li><a href="javascript:void(0)" data-theme="green-dark" class="green-dark-theme">8</a></li>
+                          <li><a href="javascript:void(0)" data-theme="red-dark" class="red-dark-theme">9</a></li>
+                          <li><a href="javascript:void(0)" data-theme="blue-dark" class="blue-dark-theme">10</a></li>
+                          <li><a href="javascript:void(0)" data-theme="purple-dark" class="purple-dark-theme">11</a></li>
+                          <li><a href="javascript:void(0)" data-theme="megna-dark" class="megna-dark-theme ">12</a></li>
+                      </ul>
+                      <ul class="m-t-20 chatonline">
+                          <li><b>Chat option</b></li>
+                          <li>
+                              <a href="javascript:void(0)"><img src="../assets/images/users/1.jpg" alt="user-img" class="img-circle"> <span>Varun Dhavan <small class="text-success">online</small></span></a>
+                          </li>
+                          <li>
+                              <a href="javascript:void(0)"><img src="../assets/images/users/2.jpg" alt="user-img" class="img-circle"> <span>Genelia Deshmukh <small class="text-warning">Away</small></span></a>
+                          </li>
+                          <li>
+                              <a href="javascript:void(0)"><img src="../assets/images/users/3.jpg" alt="user-img" class="img-circle"> <span>Ritesh Deshmukh <small class="text-danger">Busy</small></span></a>
+                          </li>
+                          <li>
+                              <a href="javascript:void(0)"><img src="../assets/images/users/4.jpg" alt="user-img" class="img-circle"> <span>Arijit Sinh <small class="text-muted">Offline</small></span></a>
+                          </li>
+                          <li>
+                              <a href="javascript:void(0)"><img src="../assets/images/users/5.jpg" alt="user-img" class="img-circle"> <span>Govinda Star <small class="text-success">online</small></span></a>
+                          </li>
+                          <li>
+                              <a href="javascript:void(0)"><img src="../assets/images/users/6.jpg" alt="user-img" class="img-circle"> <span>John Abraham<small class="text-success">online</small></span></a>
+                          </li>
+                          <li>
+                              <a href="javascript:void(0)"><img src="../assets/images/users/7.jpg" alt="user-img" class="img-circle"> <span>Hritik Roshan<small class="text-success">online</small></span></a>
+                          </li>
+                          <li>
+                              <a href="javascript:void(0)"><img src="../assets/images/users/8.jpg" alt="user-img" class="img-circle"> <span>Pwandeep rajan <small class="text-success">online</small></span></a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+          <!-- ============================================================== -->
+          <!-- End Right sidebar -->
+          <!-- ============================================================== -->
+      </div>
+      <!-- ============================================================== -->
+      <!-- End Container fluid  -->
+      <!-- ============================================================== -->
+      <!-- ============================================================== -->
+      <!-- footer -->
+      <!-- ============================================================== -->
+      <footer class="footer"> © 2018 Control Diamante by Vexing Co </footer>
+      <!-- ============================================================== -->
+      <!-- End footer -->
+      <!-- ============================================================== -->
+  </div>
+  <!-- ============================================================== -->
+  <!-- End Page wrapper  -->
+  <!-- ============================================================== -->
