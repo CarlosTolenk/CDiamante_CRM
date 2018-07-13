@@ -14,6 +14,17 @@ import { ContentComponent } from './component/dashboard/content/content.componen
 import { LoginComponent } from './component/session/login/login.component';
 import { RegisterComponent } from './component/session/register/register.component';
 import { LockscreenComponent } from './component/session/lockscreen/lockscreen.component';
+import { Stats1Component } from './component/dashboard/content/stats1/stats1.component';
+import { Stats2Component } from './component/dashboard/content/stats2/stats2.component';
+import { ResumenVentasComponent } from './component/dashboard/content/resumen-ventas/resumen-ventas.component';
+import { SuscriptoresComponent } from './component/dashboard/content/suscriptores/suscriptores.component';
+import { PlanesActivosComponent } from './component/dashboard/content/planes-activos/planes-activos.component';
+import { MovimientosRecienteComponent } from './component/dashboard/content/movimientos-reciente/movimientos-reciente.component';
+import { ChatComponent } from './component/dashboard/chat/chat.component';
+import { PlanesComponent } from './component/dashboard/planes/planes.component';
+import { ClientesComponent } from './component/dashboard/clientes/clientes.component';
+import { LoteriaComponent } from './component/dashboard/loteria/loteria.component';
+import { MensajeComponent } from './component/dashboard/mensaje/mensaje.component';
 
 
 
@@ -26,7 +37,18 @@ import { LockscreenComponent } from './component/session/lockscreen/lockscreen.c
     ContentComponent,
     LoginComponent,
     RegisterComponent,
-    LockscreenComponent
+    LockscreenComponent,
+    Stats1Component,
+    Stats2Component,
+    ResumenVentasComponent,
+    SuscriptoresComponent,
+    PlanesActivosComponent,
+    MovimientosRecienteComponent,
+    ChatComponent,
+    PlanesComponent,
+    ClientesComponent,
+    LoteriaComponent,
+    MensajeComponent
   
   ],
   imports: [

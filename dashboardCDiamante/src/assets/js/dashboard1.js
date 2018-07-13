@@ -10,7 +10,7 @@ $(function () {
     // Sales overview
     // ============================================================== 
      new Chartist.Line('#sales-overview', {
-        labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+        labels: ['Plan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
         , series: [
           {meta:"Earning ($)", data: [0, 150, 110, 240, 200, 200, 300, 200, 380, 300, 400, 380]}
         , {meta:"Expense ($)", data: [0, 100, 70, 100, 240, 180, 220, 140, 250, 210, 340, 320]}
